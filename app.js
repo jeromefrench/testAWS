@@ -2,13 +2,14 @@ const express = require('express');
 const app = express ();
 
 app.get('/', (req, res) => {
+  console.log("on a une request");
   res.send("hello you");
 });
 
-const port = process.env.port || 3001
+const PORT = process.env.port || 8081
 console.log("************************************************************************************************");
-console.log("App listening on port", port);
-app.listen(port, () => {
+console.log("App listening on PORT", PORT);
+app.listen(PORT, () => {
   console.log("Hello babe");
 });
 
