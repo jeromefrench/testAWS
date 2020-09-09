@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
 });
 
 const port = process.env.port || 3001
+console.log("App listening on port", port);
 app.listen(port, () => {
   console.log("Hello babe");
 });
