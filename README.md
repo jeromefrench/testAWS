@@ -1,2 +1,2 @@
 # testAWS
-testAWA
+testAWS
